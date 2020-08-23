@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARBOL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <style>
+      body{
+        padding-top: 4em;
+        background-color: #1b1c1d;
+      }
+      h1.simple{
+        padding: 0;
+        margin: 0 !important;
+        width: auto;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+    </style>
+</head>
+<body>
+
+<div class="ui top fixed menu inverted">
+  <div class="item">
+    <img src="BCP.png">
+  </div>
+  <a class="item" href="Untitled-1.html">Flujo</a>
+  <a class="item">Información de Importancia</a>
+  <a class="item">Reportar errores</a>
+</div>
+
+<!--ctrl+shift+r-->
+  
+    
+      <div class="ui inverted segment">
+
+        <div class="ui inverted accordion">
+          <div class="active title">
+            <i class="dropdown icon"></i>
+            Presentación
+          </div>
+          <div class="active content">
+            <p>Speech: "Hola, *Nombre de Cliente*, mi nombre es *Nombre de Asesor* ¿Cómo estás, en qué te puedo ayudar?"</p>
+            <small>Esperar a que nos indique la consulta.</small><br>
+            <small>No olvidar validar número de celular</small><br>
+            <small>Palotea el IDC al inicio de la llamada</small>
+          </div>
+          
+          <div class="title">
+            <i class="dropdown icon"></i>
+            Validación
+          </div>
+          <div class="content">
+            <div class="ui segment">
+
+              <div class="ui horizontal segments three column grid">
+                
+                <div class="ui segment column">
+                  <div class="ui top attached label">Validación Corta</div>
+                  <p>IDC + Nombres y Apellidos</p>
+                </div>
+
+                <div class="ui segment column">
+                  <div class="ui top attached label">Validación con Conferencia</div>
+                  <p>Trujillo: 37051</p>
+                  <p>Lima: 73220</p>
+                  
+                </div>
+
+                <div class="ui segment column">
+                  <div class="ui top attached label">Validación con Preguntas</div>
+                  <p>Si no tiene credimas y no recuerda la clave de 4 dígitos de su TC.</p>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            Solución de la consulta
+          </div>
+          <div class="content">
+            <p>Aquí tendrás algunas herramientas para poder encontrar una solución a la consulta de nuestro cliente.</p>
+            <a href="https://webdca.lima.bcp.com.pe:98/">Desafiliar/Ampliar YAPE</a><br>
+            <a href="http://pg614dbd01:86">Consulta SdP (Skip/Cong/Cons)</a><br>
+            <a href="https://www.campusbcp.com/login/index.php">Campus BCP</a><br>
+            <a href="https://bonouniversalfamiliar.pe/#!/">Bono Familiar Universal</a><br>
+          
+          </div>
+          
+          <div class="title">
+            <i class="dropdown icon"></i>
+            Despedida
+          </div>
+          <div class="content">
+            <p>¿Queda clara la Información?</p>
+            <p>Mencionar encuesta</p>
+            
+          </div>
+
+        </div>
+
+      </div>
+    
+  
+
+  <script>
+    $('.ui.accordion')
+  .accordion()
+;
+  </script>
+</body>
+</html>
